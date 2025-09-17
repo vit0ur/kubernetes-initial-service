@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: myconfigmap-vitor
+  namespace: proway-vitor
+data:
+  key: value
+  index.html: |
+    <html>
+      <head>
+        <title>Welcome to Nginx on Kubernetes - josé vitor</title>
+      </head>
+      <body>
+        <h1>Success! Nginx is running on Kubernetes - josé vitor.</h1>
+      </body>
+    </html>

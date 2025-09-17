@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: nginx-proway-vitor
+  namespace: proway-vitor
+spec:
+  selector:
+    app: nginx-proway-vitor
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80
